@@ -1,0 +1,51 @@
+.grid-container { 
+    display: grid;
+    grid-template-areas: 
+    'one one one one one one'
+    'two two two two two two'
+    'three three threeA threeA threeA threeB'
+    'four four four four four four'
+    ;
+}
+
+#one { 
+    grid-area: one;
+    margin: 10px;
+    padding: 5px;
+}
+
+#two { 
+    grid-area: two;
+    margin: 10px;
+    padding: 5px;
+}
+
+#three { 
+    grid-area: three;
+    margin: 10px;
+    padding: 5px;
+}
+
+#threeA { 
+    grid-area: threeA;
+    margin: 10px;
+    padding: 5px;
+}
+
+#threeB { 
+    grid-area: threeB;
+    margin: 10px;
+    padding: 5px;
+}
+
+#four  { 
+    grid-area: four;
+    margin: 10px;
+    padding: 5px;
+}
+
+
+/*  ATTRIBUTE SELECTORS : Using css to target a html element based of its attribute : The element must have an attribute */
+a[href] {
+    color: red;
+}
