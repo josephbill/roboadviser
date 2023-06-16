@@ -60,3 +60,4 @@ let productsMobile = [samsung,iphone]
 for (let item = 0 ; item < productsMobile.length; item++){
        
 }
+

@@ -126,12 +126,12 @@ console.log(message.toLowerCase())
 
 // for ... in , keys (forEach) , recursion 
 
-// for (let key in vehicle2){
-//    // within this loop you can effect a logic 
-//    if(vehicle2.hasOwnProperty(key)){
-//       console.log(key + " : " + vehicle2[key])
-//    }
-// }
+for (let key in vehicle2){
+   // within this loop you can effect a logic 
+   if(vehicle2.hasOwnProperty(key)){
+      console.log(key + " : " + vehicle2[key])
+   }
+}
 
 
 // ForEach 

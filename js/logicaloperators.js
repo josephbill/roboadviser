@@ -16,5 +16,6 @@ console.log(resultb)
 
 // WHY - OR :  as long as one condition is true it returns true 
 
-let resultc = !a;
+let resultc = !a; //
 console.log(resultc)
+// false 
